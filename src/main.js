@@ -1,6 +1,6 @@
 exports.Map = require('./components/Map.vue');
 exports.TileLayer = require("./components/TileLayer.vue");
-exports.ImageOverlay = requier('./components/ImageOverlay.vue');
+exports.ImageOverlay = require('./components/ImageOverlay.vue');
 exports.Marker = require("./components/Marker.vue");
 exports.Polyline = require("./components/Polyline.vue");
 exports.LayerGroup = require("./components/LayerGroup.vue");
