@@ -54,10 +54,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	exports.Map = __webpack_require__(21);
 	exports.TileLayer = __webpack_require__(25);
+	exports.ImageOverlay = requier('./components/ImageOverlay.vue');
 	exports.Marker = __webpack_require__(22);
 	exports.Polyline = __webpack_require__(23);
 	exports.LayerGroup = __webpack_require__(20);

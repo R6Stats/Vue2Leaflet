@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --inline",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "NODE_ENV=production webpack --progress --hide-modules"
   },
   "main": "dist/vue2-leaflet.js",
   "repository": {
